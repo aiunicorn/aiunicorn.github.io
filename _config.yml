@@ -19,6 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title      : Pulse AI Young Scholars Summit
 abbreviation: PAI
 email      : eng@paisummit.org #this is also the email contact forms will go to
+formspree_form_path: f/meqvllda
 description: "Site description"
 author     : Your Name
 # logo:     #optional, defaults to site title
