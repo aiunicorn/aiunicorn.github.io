@@ -14,7 +14,7 @@ let render_projects = (slug) => {
             image: 'assets/images/mentors.jpg',
             link: 'pages/gomoku.html',
             title: 'AlphaZero-Gomoku',
-            demo: 'https://mporter.co',
+            demo: 'pages/gomoku.html',
             technologies: ['Flask', 'Celery', 'Python'],
             description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
             categories: ['featured', 'webdev']
