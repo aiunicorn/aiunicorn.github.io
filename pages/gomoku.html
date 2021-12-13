@@ -1,11 +1,10 @@
 ---
 title : Gomoku
-permalink: /gomoku/
+permalink: /pages/gomoku.html
 ---
 
 <!DOCTYPE html>
 <html>
-{% include head.html %}
 <head>
   <meta charset="utf-8">
   <title>gomoku</title>
@@ -14,7 +13,7 @@ permalink: /gomoku/
 </head>
 <body>
   <div class='header_gobang'>
-  {% include navbar.html %}
+  <h1>Gomoku</h1>
   </div>
   <div id="app">
     <div id="main" class="gomoku" :class="{'gomoku-mobile': isMobile(), 'gomoku-desktop': !isMobile()}">
