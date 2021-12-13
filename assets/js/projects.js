@@ -11,13 +11,13 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
+            image: 'assets/images/az-gomoku.png',
             link: 'pages/gomoku.html',
             title: 'AlphaZero-Gomoku',
             demo: 'pages/gomoku.html',
-            technologies: ['Flask', 'Celery', 'Python'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
-            categories: ['featured', 'webdev']
+            technologies: ['ML', 'CNN', 'MCTS'],
+            description: "Web application for AlphaZero-based Gomoku. AlphaZero was proposed by Google DeepMind, and  utilized CNN, MCTS in a unified reinforcement learning framework.",
+            categories: ['featured', 'ai']
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
