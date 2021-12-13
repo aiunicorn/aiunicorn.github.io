@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: 'AlphaZero-Gomoku',
             demo: 'pages/gomoku.html',
             technologies: ['ML', 'CNN', 'MCTS'],
-            description: "Web application for AlphaZero-based Gomoku. AlphaZero was proposed by Google DeepMind, and  utilized CNN, MCTS in a unified reinforcement learning framework.",
+            description: "Web application for AlphaZero-based Gomoku. AlphaZero was proposed by Google DeepMind in 2018, and we implemented it to power our Gomoku application utilizing CNN and MCTS in a unified reinforcement learning framework.",
             categories: ['featured', 'ai']
         },
         {
