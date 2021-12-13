@@ -12,9 +12,9 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/mentors.jpg',
-            link: 'https://github.com/abhn/Wall-E',
+            link: 'pages/gomoku.html',
             title: 'AlphaZero-Gomoku',
-            demo: 'http://wall-e-jekyll.github.io/',
+            demo: 'pages/gomoku.html',
             technologies: ['Flask', 'Celery', 'Python'],
             description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
             categories: ['featured', 'webdev']
