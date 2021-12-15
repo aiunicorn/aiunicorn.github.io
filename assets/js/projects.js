@@ -18,7 +18,16 @@ let render_projects = (slug) => {
             technologies: ['ML', 'CNN', 'MCTS'],
             description: "A web application of Gomoku using the AlphaZero model. AlphaZero was proposed by Google DeepMind in 2018, and we implemented it to power our Gomoku application utilizing CNN and MCTS in a unified reinforcement learning framework.",
             categories: ['featured', 'ai']
-        }
+        },
+        {
+            image: 'assets/images/churn-analysis.png',
+            link: 'assets/download/churn_analysis.pdf',
+            title: 'Churn Analysis',
+            demo: 'assets/download/churn_analysis.pdf',
+            technologies: ['ML'],
+            description: "Predicting customer churn using data from IBM. Experimental results showed that using XGBoost as the base classifier combined with feature engineering significantly enhanced the prediction performance.",
+            categories: ['ai']
+        },
     ]
 
     let projects = [];
