@@ -23,7 +23,7 @@ let render_projects = (slug) => {
             image: 'assets/images/churn-analysis.png',
             link: 'assets/download/churn_analysis.pdf',
             title: 'Churn Analysis',
-            demo: 'assets/download/churn_analysis.pdf',
+            demo: false,
             technologies: ['ML'],
             description: "Predicting customer churn using data from IBM. Experimental results showed that using XGBoost as the base classifier combined with feature engineering significantly enhanced the prediction performance.",
             categories: ['ai']
