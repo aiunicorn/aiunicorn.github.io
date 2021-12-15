@@ -25,7 +25,7 @@ let render_projects = (slug) => {
             title: 'Churn Analysis',
             demo: false,
             technologies: ['ML'],
-            description: "Predicting customer churn using data from IBM. Experimental results showed that using XGBoost as the base classifier combined with feature engineering significantly enhanced the prediction performance.",
+            description: "Predicting customer churn using data from IBM. Experimental results showed that using XGBoost as the base classifier combined with feature engineering significantly enhanced the prediction performance. Click the plot image above to read our technical report.",
             categories: ['ai']
         },
     ]
