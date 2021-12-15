@@ -26,7 +26,16 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['ML'],
             description: "Predicting customer churn using data from IBM. Experimental results showed that using XGBoost as the base classifier combined with feature engineering significantly enhanced the prediction performance. Click the plot image above to read our technical report.",
-            categories: ['ai']
+            categories: ['featured', 'ai']
+        },
+        {
+            image: 'assets/images/iter-blueprint.png',
+            link: 'assets/download/iter.pdf',
+            title: 'Interactive Map',
+            demo: false,
+            technologies: ['HCI'],
+            description: "We developed an interactive map application by exploratoryly combining three different input methods: a touch screen, a globe connected to an electronic device, and voice. Click the plot image above to read the technical report.",
+            categories: ['featured', 'hci']
         },
     ]
 
