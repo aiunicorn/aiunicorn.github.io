@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: 'AlphaZero-Gomoku',
             demo: 'pages/gomoku.html',
             technologies: ['ML', 'CNN', 'MCTS'],
-            description: "Web application for AlphaZero-based Gomoku. AlphaZero was proposed by Google DeepMind in 2018, and we implemented it to power our Gomoku application utilizing CNN and MCTS in a unified reinforcement learning framework.",
+            description: "A web application of Gomoku using the AlphaZero model. AlphaZero was proposed by Google DeepMind in 2018, and we implemented it to power our Gomoku application utilizing CNN and MCTS in a unified reinforcement learning framework.",
             categories: ['featured', 'ai']
         }
     ]
@@ -51,7 +51,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}" style="color:#FF0000;">Click for a LIVE demo</a>` : ''}</p>
                     </article>
 
                                 
