@@ -55,6 +55,15 @@ let render_projects = (slug) => {
             description: "This article analyzes the behavior of individuals and recyclers through a comprehensive static information game theory and establishes a price model of second-hand mobile phone recycling based on best response dynamics. Journal of Environmental Science and Pollution Research (ESPR) 2021. Click the image above to read the paper.",
             categories: ['featured', 'math']
         },
+        {
+            image: 'assets/images/lookhere.png',
+            link: 'assets/download/lookhere.pdf',
+            title: 'LookHere: a Teaching Aid Web App to Help Children with Autism Spectrum Disorder',
+            demo: false,
+            technologies: ['WEB'],
+            description: "We developed a native web application called LookHere using Go to help children with autism spectrum disorder (ASD) to communicate with others normally. The main logic is that a series of image combinations are selected by the users as input and then converted into speech or text. Click the image above to read the slides.",
+            categories: ['featured', 'web']
+        },
     ]
 
     let projects = [];
