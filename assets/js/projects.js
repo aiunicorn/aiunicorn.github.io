@@ -38,12 +38,12 @@ let render_projects = (slug) => {
             categories: ['featured', 'hci']
         },
         {
-            image: 'assets/images/metaheuristics-knapsack.png',
+            image: 'assets/images/knapsack.png',
             link: 'assets/download/knapsack.pdf',
             title: 'Metaheuristics for 0-1 Knapsack',
             demo: false,
             technologies: ['ALGORITHM'],
-            description: "We explored three meta-heuristic algorithms, i.e., ACO, GA and QTS to solve the 0-1 knapsack questions. Applying such metaheuristics resulted in high efficiency in terms of the quality of obtained solutions, computational time, and robustness. Click the image above to read the report",
+            description: "On the adoption of Metaheuristics for Solving 0-1 Knapsack Problems. We explored three meta-heuristic algorithms, i.e., ACO, GA and QTS on the 0-1 knapsack questions. Submitted to the 22nd International Conference on Parallel and Distributed Computing, Applications and Technologies (PDCAT 2021). Click the image above to read the paper.",
             categories: ['featured', 'algo']
         },
     ]
