@@ -34,7 +34,7 @@ let render_projects = (slug) => {
             title: 'Interactive Map',
             demo: false,
             technologies: ['HCI'],
-            description: "We developed an interactive map application by exploratoryly combining three different input methods: a touch screen, a globe connected to an electronic device, and voice. Click the plot image above to read the technical report.",
+            description: "A software and hardware integrated interactive mapping system. Its main functions include travel footprint tracking, global geographic information display, and voice control with three input patterns, i.e., haptics click, touch screen control and voice control.",
             categories: ['featured', 'hci']
         },
     ]
