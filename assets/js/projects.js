@@ -31,7 +31,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/iter-blueprint.png',
             link: 'assets/download/iter.pdf',
-            title: 'Interactive Map',
+            title: 'An Integrated Interactive Mapping System',
             demo: false,
             technologies: ['HCI'],
             description: "A software and hardware integrated interactive mapping system. Its main functions include travel footprint tracking, global geographic information display, and voice control with three input patterns, i.e., haptics click, touch screen control and voice control. Click the image above to read the report.",
@@ -40,10 +40,10 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/knapsack.png',
             link: 'assets/download/knapsack.pdf',
-            title: 'Metaheuristics for 0-1 Knapsack',
+            title: 'Metaheuristics for the 0-1 Knapsack Problem',
             demo: false,
             technologies: ['ALGORITHM'],
-            description: "On the adoption of Metaheuristics for Solving 0-1 Knapsack Problems. We explored three meta-heuristic algorithms, i.e., ACO, GA and QTS on the 0-1 knapsack questions. Submitted to the 22nd International Conference on Parallel and Distributed Computing, Applications and Technologies (PDCAT 2021). Click the image above to read the paper.",
+            description: "On the adoption of Metaheuristics for Solving 0-1 Knapsack Problems. We explored three meta-heuristic algorithms, i.e., ACO, GA and QTS. Paper submitted to the 22nd International Conference on Parallel and Distributed Computing, Applications and Technologies (PDCAT). Click the image above to read the paper.",
             categories: ['featured', 'algo']
         },
     ]
