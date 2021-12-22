@@ -61,7 +61,7 @@ let render_projects = (slug) => {
             title: 'LookHere: a Teaching Aid Web App to Help Children with Autism Spectrum Disorder',
             demo: false,
             technologies: ['WEB'],
-            description: "We developed a native web application called LookHere using Go to help children with autism spectrum disorder (ASD) to communicate with others normally. The main logic is that a series of image combinations are selected by the users as input and then converted into speech or text. Click the image above to read the slides.",
+            description: "We developed a native web application called LookHere using Go to help children with autism spectrum disorder (ASD) to communicate with others normally. The web app's main logic is that a series of image combinations are selected by the users as input and then converted into speech or text. Click the image above to read the slides.",
             categories: ['featured', 'web']
         },
     ]
