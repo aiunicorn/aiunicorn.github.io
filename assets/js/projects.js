@@ -42,9 +42,18 @@ let render_projects = (slug) => {
             link: 'assets/download/knapsack.pdf',
             title: 'Metaheuristics for the 0-1 Knapsack Problem',
             demo: false,
-            technologies: ['ALGORITHM'],
+            technologies: ['OPTIMIZATION'],
             description: "On the adoption of Metaheuristics for Solving 0-1 Knapsack Problems. We explored three meta-heuristic algorithms, i.e., ACO, GA and QTS. Paper submitted to the 22nd International Conference on Parallel and Distributed Computing, Applications and Technologies (PDCAT). Click the image above to read the paper.",
-            categories: ['featured', 'algo']
+            categories: ['featured', 'opt']
+        },
+        {
+            image: 'assets/images/game-theory.png',
+            link: 'assets/download/game_theory.pdf',
+            title: 'Optimal Recycle Price Game Theory Model for Second-hand Mobile Phone Recycling',
+            demo: false,
+            technologies: ['MATH'],
+            description: "This article analyzes the behavior of individuals and recyclers through a comprehensive static information game theory and establishes a price model of second-hand mobile phone recycling based on best response dynamics. Journal of Environmental Science and Pollution Research (ESPR) 2021. Click the image above to read the paper.",
+            categories: ['featured', 'math']
         },
     ]
 
