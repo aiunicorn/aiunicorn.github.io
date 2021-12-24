@@ -1,5 +1,5 @@
 title: Yang Qiu
-description: Kean University (WKU)
+description: Wenzhou-Kean University (WKU)
 site_title: 'Yang Qiu'
 
 # Build settings
@@ -8,8 +8,6 @@ exclude: [vendor/ruby]
 
 # Personalization
 email: yangq@kean.edu
-twitter_username: abhn_
-reddit_username: abhn
 
 # absolute or relative
 profile_picture: assets/images/avatar.png
