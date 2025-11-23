@@ -695,13 +695,12 @@ small {
 
 .flexible-row {
   display: flex;
-  justify-content: center;
-  /* center all columns */
+  justify-content: flex-start;
   gap: 16px;
-  /* optional spacing */
 }
 
 .flex-item {
   white-space: nowrap;
+  text-align: left;
   /* prevent wrapping if you want */
 }
