@@ -451,6 +451,7 @@ h3 {
 }
 
 .card .card-content .card-title {
+  color: black;
   line-height: 2.5rem;
 }
 
